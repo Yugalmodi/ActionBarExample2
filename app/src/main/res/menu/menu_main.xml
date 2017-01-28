@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.techpalle.actionbarexample.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/call"
+        android:title="call"
+        android:icon="@drawable/ic_backup_white_24dp"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/back"
+        android:title="back"
+        android:icon="@drawable/ic_perm_media_white_24dp"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/backup"
+        android:title="backup"
+        android:icon="@drawable/ic_backup_white_24dp"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/run"
+        android:title="run"
+        android:icon="@drawable/ic_call_to_action_black_18dp"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom"/>
+</menu>
